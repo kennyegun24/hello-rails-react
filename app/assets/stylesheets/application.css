@@ -13,3 +13,49 @@
  *= require_tree .
  *= require_self
  */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.greetDiv {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgb(238, 238, 72) 60%, rgb(75, 75, 219));
+    height: 100vh;
+}
+
+.greetDiv>div {
+    display: flex;
+    gap: 0.5rem;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.routes {
+    background: #070606;
+    padding: 0.5rem;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    align-items: center;
+}
+
+.center>p {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(8, 34, 56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
